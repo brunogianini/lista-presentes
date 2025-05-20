@@ -16,7 +16,7 @@ export default function Home() {
         <p>FIZEMOS ESTE SITE PARA QUEM QUISER DAR ALGUM PRESENTINHO PARA ESSA NOTA ETAPA! MUITO OBRIGADO PARA TODO MUNDO QUE QUISER COLABORAR!</p>
 
 
-        <HomeButton text="Quero dar um móvel" link="/"/>
+        <HomeButton text="Quero dar um móvel" link="/movel"/>
         <HomeButton text="Quero dar um móvel" link="/"/>
         <HomeButton text="Quero dar um móvel" link="/"/>
         <HomeButton text="Quero dar um móvel" link="/"/>
