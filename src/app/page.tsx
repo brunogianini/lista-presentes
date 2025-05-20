@@ -10,8 +10,8 @@ export default function Home() {
 
       </div>
 
-      <div className="flex justify-center items-center flex-col">
-        <SiteHeader text="Chá de Panela Bruno & Luiza"/>
+      <div className="flex justify-center items-center flex-col gap-5">
+        <SiteHeader />
 
         <p>FIZEMOS ESTE SITE PARA QUEM QUISER DAR ALGUM PRESENTINHO PARA ESSA NOTA ETAPA! MUITO OBRIGADO PARA TODO MUNDO QUE QUISER COLABORAR!</p>
 

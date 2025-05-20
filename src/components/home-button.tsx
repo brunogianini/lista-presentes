@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 interface ButtonProps{
     text: string,
     link: string
@@ -5,6 +7,8 @@ interface ButtonProps{
 
 export default function HomeButton({text, link}: ButtonProps){
     return(
-        <div className="border-2 w-full border-black p-3 flex justify-center m-5 cursor-pointer hover:bg-orange-200">{text}</div>
+        <Link className="w-full" href={link}>
+            <div className="border-2 w-full border-black p-3 flex justify-center m-2 cursor-pointer hover:bg-orange-200">{text}</div>
+        </Link>
     )
 }

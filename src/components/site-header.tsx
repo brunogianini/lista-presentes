@@ -1,5 +1,5 @@
 interface HeaderProps{
-    text: string
+    text?: string
 }
 
 export default function SiteHeader({text}: HeaderProps){
