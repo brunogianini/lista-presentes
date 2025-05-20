@@ -120,3 +120,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+@font-face {
+  font-family: 'Kingred Modern';
+  src: url('/public/fonts/kingred.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
